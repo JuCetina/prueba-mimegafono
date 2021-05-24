@@ -1,0 +1,126 @@
+:root{
+    --primary-color: #f32e2e;
+    --secondary-color: #1a1a1a;
+    --terciary-color: #f3f3f3;
+    --font-title: 'Roboto', sans-serif;
+    --font: 'Lato', sans-serif;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    font-family: var(--font);   
+}
+
+header{
+    width: 100%;
+    height: 30px;
+    padding: 30px;
+    display: flex;
+    justify-content: flex-start;
+    box-sizing: border-box;
+}
+
+.header-brand{
+    width: 200px;
+    height: 30px;
+}
+
+.header-svg{
+    width: 100%;
+    height: 100%;
+}
+
+.brand-symbol{
+    fill: var(--primary-color);
+}
+
+.container{
+    width: 70%;
+    min-height: 300px;
+    margin: 50px auto;
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.poll-list{
+    padding: 0;
+}
+
+.poll-title{
+    font-family: var(--font-title);
+}
+
+.list-item{
+    list-style: none;
+    max-height: 100px;
+    border-radius: 3px;
+    margin-bottom: 5px;
+    background-color: var(--terciary-color);
+    transition: .3s;
+}
+
+.item-link{
+    text-decoration: none;
+    color: var(--secondary-color);
+    display: block;
+    padding: 15px;
+    transition: .3s;
+}
+
+.list-item:hover{
+    background-color: var(--primary-color);
+    border: 1px solid var(--terciary-color);
+    
+}
+
+.list-item:hover .item-link{
+    font-weight: 600;
+    color: var(--terciary-color);
+}
+
+.form{
+    width: 100%;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+.options-container{
+    padding: 5px 0;
+}
+
+.radio-label{
+    font-size: 18px;
+}
+
+.form-button{
+    font-family: var(--font);
+    color: var(--secondary-color);
+    font-size: 20px;
+    padding: 10px 30px;
+    background-color: var(--terciary-color);
+    border: none;
+    border-bottom: 2px solid var(--secondary-color);
+    border-radius: 10px;
+    margin: 12px 20px;
+}
+
+.form-button:hover{
+    background-color: #d6d0d0;
+}
+
+.list-result{
+    list-style: none;
+    padding: 10px;
+}
+
+.vote-link{
+    color: var(--terciary-color);
+    font-size: 20px;
+    margin-left: 10px;
+}
