@@ -9,7 +9,7 @@ _Para visualización del proyecto en el navegador, ingresar a las siguientes URL
 
 * Listado de Encuestas: Pendiente...
 
-* Desde el anterior enlace se puede ingresar a Detalle de la encuesta, luego a Voto y Resultados de la encuesta.
+* Desde el anterior enlace si se realiza lo solicitado, se puede ingresar a Detalle de la encuesta, luego a Voto y Resultados de la encuesta.
 
 * Mi presentación: Pendiente...
 
