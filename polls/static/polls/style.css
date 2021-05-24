@@ -11,7 +11,7 @@ body{
     margin: 0;
     padding: 0;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     font-family: var(--font);   
 }
 
@@ -121,4 +121,8 @@ header{
     color: var(--terciary-color);
     font-size: 20px;
     margin-left: 10px;
+}
+
+.list-item-technology{
+    padding: 5px;
 }
