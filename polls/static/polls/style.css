@@ -70,13 +70,11 @@ header{
     color: var(--secondary-color);
     display: block;
     padding: 15px;
-    transition: .3s;
 }
 
 .list-item:hover{
     background-color: var(--primary-color);
     border: 1px solid var(--terciary-color);
-    
 }
 
 .list-item:hover .item-link{
